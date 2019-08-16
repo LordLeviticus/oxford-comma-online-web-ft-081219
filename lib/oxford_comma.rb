@@ -2,7 +2,7 @@ def oxford_comma(array)
   case array.length 
   
   when 1 
-    array.split
+    array.split("")
     
   end
 end
