@@ -3,4 +3,6 @@ def oxford_comma(array)
   
   when 1 
     array.split
+    
+  end
 end
