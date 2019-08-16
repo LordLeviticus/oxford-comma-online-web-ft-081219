@@ -1,8 +1,8 @@
 def oxford_comma(array)
   case array.length
     when 1 
-     array.split(", and ")
+     array.split(", ")
     when 2 
-      array.split("and ")
+      array.split(", and ")
   end
 end
