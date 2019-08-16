@@ -16,5 +16,17 @@ def oxford_comma(array)
       string << "and " + final 
       return string
       
+    when > 4 
+      #Remove final Element from Array
+      final = array.pop 
+      string = ""
+      
+      #Iterate through Array to add Commas
+      array.each { |element| string << element + ", " }
+      
+      #Add the last element onto the String and then return String
+      string << "and " + final 
+      return string
+      
   end
 end
