@@ -16,7 +16,7 @@ def oxford_comma(array)
       string << "and " + final 
       return string
       
-    when > 4 
+    else 
       #Remove final Element from Array
       final = array.pop 
       string = ""
